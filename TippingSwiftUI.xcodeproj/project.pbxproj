@@ -51,9 +51,11 @@
 		F6F34C832C5E99EC00478CBC /* TippingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				F6F34C842C5E99EC00478CBC /* TippingSwiftUIApp.swift */,
-				F6F34C862C5E99EC00478CBC /* ContentView.swift */,
 				F6F34C882C5E99ED00478CBC /* Assets.xcassets */,
+				F6F34C952C5E9B3100478CBC /* App */,
+				F6F34C942C5E9B2500478CBC /* Models */,
+				F6F34C932C5E9B1F00478CBC /* Vies */,
+				F6F34C922C5E9B1800478CBC /* ViewModels */,
 				F6F34C8A2C5E99ED00478CBC /* Preview Content */,
 			);
 			path = TippingSwiftUI;
@@ -65,6 +67,36 @@
 				F6F34C8B2C5E99ED00478CBC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6F34C922C5E9B1800478CBC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F6F34C932C5E9B1F00478CBC /* Vies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vies;
+			sourceTree = "<group>";
+		};
+		F6F34C942C5E9B2500478CBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6F34C952C5E9B3100478CBC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F6F34C842C5E99EC00478CBC /* TippingSwiftUIApp.swift */,
+				F6F34C862C5E99EC00478CBC /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
